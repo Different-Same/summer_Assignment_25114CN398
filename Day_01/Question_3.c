@@ -8,7 +8,7 @@ int main()
     printf("The Factorial of %d : \n",x);
     for(int i=1;i<=x;i++)
     {
-        fact*=i;
+        fact*=i; 
     }
     printf("%d",fact);
     return 0;
